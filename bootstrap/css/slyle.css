@@ -1,0 +1,213 @@
+:root {
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    font-size: 1.5rem;
+    max-width: 1920px;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.number {
+    margin-right: 8px;
+    text-align: center;
+    font-size: 6.25rem;
+    color: #8CACD0;
+    font-weight: bold;
+}
+
+.friseller  {
+    max-width: 900px;
+    background-color: #DDEAEE;
+}
+
+.friseller-content {
+    padding-left: 20px;
+    padding-right: 34px;
+}
+
+.friseller h2 {
+    color: #BC672C;
+}
+.about_fs {
+    padding-left: 90px;
+    background-repeat: no-repeat;
+    background-position: 0 center;
+}
+
+.definition {
+    background-image: url(../img/ico-avatar.svg);
+}
+
+.task {
+    background-image: url(../img/ico-page.svg);
+}
+
+.pay {
+    background-image: url(../img/ico-cash.svg);
+}
+
+.friseller img {
+    width: 100%;
+    object-fit: contain;
+
+    position: relative;
+    bottom: -67px;
+}
+
+.will-work {
+    padding: 0;
+    background-color: #F2DCC5;
+}
+
+.will-work-content {
+    padding-left: 71px;
+    padding-right: 71px;
+    padding-bottom: 60px;
+}
+
+.will-work h2 {
+    color: #42445A;
+}
+
+.will-work h3 {
+    font-size: 1.5rem;
+    font-style: bold;
+}
+
+.reasons {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 11, 22, 0.25);
+}
+
+.reasons {
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.reasons-cont p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.registration {
+    margin-right: 0;
+}
+.registration h2 {
+    margin-bottom: 30px;
+    text-align: start;
+}
+
+.steps {
+    align-items: center;
+}
+
+.registration .number {
+    color: #BC672C;
+}
+
+.case-cont {
+    padding-top: 160px;
+}
+
+.registration img {
+    max-width: 550px;
+    width: 100%;
+
+    object-fit: contain;
+}
+
+.btn {
+    padding: 20px 30px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    max-width: max-content;
+
+    border-radius: 50px;
+
+    font-size: 1.87rem;
+    font-weight: bold;
+
+    color: #ffffff;
+    background-color: #42445A;
+}
+
+@media  (max-width: 1439px){
+
+    body {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.9rem;
+    }
+
+    .will-work h3 {
+        padding-top: 20px;
+        font-size: 1.25rem;
+    }
+
+    .case-cont {
+        padding-top: 175px;
+    }
+
+    .reasons-cont p {
+        padding-bottom: 20px;
+        font-size: 0.88rem;
+    }
+
+    .registration-content{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .btn {
+        margin: auto;
+        margin-bottom: 60px;
+        margin-top: 100px;
+        padding: 15px 25px;
+
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .will-work-content {
+        padding: 20px 25px;
+    }
+    .will-work h3 {
+        font-size: 1rem;
+    }
+
+    .case-cont {
+        padding-top: 0px;
+    }
+    .steps p {
+        padding: 0;
+    }
+
+    .btn {margin-bottom: 30px;
+        margin-top: 20px;
+    }
+}
+    
+
+
+
